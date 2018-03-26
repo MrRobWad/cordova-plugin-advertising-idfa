@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-advertising-idfa",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Cordova Advertising ID (IDFA) Plugin for both Android and iOS",
   "cordova": {
     "id": "cordova-plugin-advertising-idfa",
@@ -36,7 +36,7 @@
   "engines": [
     {
       "name": "cordova",
-      "version": ">=6.4.0"
+      "version": ">=7.0.1"
     }
   ],
   "author": {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-advertising-idfa" version="1.0.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-advertising-idfa" version="1.0.2">
 
     <name>Advertising ID (IDFA) Plugin for Android and iOS</name>
     <description>Phonegap/Cordova plugin to get Advertising ID for both Android and iOS platforms</description>
@@ -9,7 +9,7 @@
     <author email="robert.waddell@gmail.com" href="https://github.com/MrRobWad/cordova-plugin-advertising-idfa">Robert Waddell</author>
 
     <engines>
-        <engine name="cordova" version=">=6.4.0" />
+        <engine name="cordova" version=">=7.0.1" />
     </engines>
 
     <license>MIT</license>
