@@ -19,6 +19,7 @@
 
     <js-module src="www/advertisingIDFA.js" name="advertisingIDFA">
         <clobbers target="advertisingIDFA" />
+        <clobbers target="AdvertisingIDFA" />
     </js-module>
 
     <!-- android-specific elements -->
@@ -26,7 +27,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="AdvertisingIDFA">
-                <param name="android-package" value="AdvertisingIDFA" />
+                <param name="android-package" value="com.mrrobwad.cordova.android.idfa" />
             </feature>
         </config-file>
 

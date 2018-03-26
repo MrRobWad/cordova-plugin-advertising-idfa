@@ -9,17 +9,17 @@ package com.mrrobwad.cordova.android.idfa;
 
 
 import java.io.IOException;
-        import java.util.concurrent.LinkedBlockingQueue;
-        import android.content.ComponentName;
-        import android.content.Context;
-        import android.content.Intent;
-        import android.content.ServiceConnection;
-        import android.content.pm.PackageManager;
-        import android.os.IBinder;
-        import android.os.IInterface;
-        import android.os.Looper;
-        import android.os.Parcel;
-        import android.os.RemoteException;
+import java.util.concurrent.LinkedBlockingQueue;
+import android.content.ComponentName;
+import android.content.Context;
+import android.content.Intent;
+import android.content.ServiceConnection;
+import android.content.pm.PackageManager;
+import android.os.IBinder;
+import android.os.IInterface;
+import android.os.Looper;
+import android.os.Parcel;
+import android.os.RemoteException;
 
 public final class AdvertisingIdClient {
 
