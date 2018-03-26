@@ -27,7 +27,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="AdvertisingIDFA">
-                <param name="android-package" value="com.mrrobwad.cordova.android.idfa" />
+                <param name="android-package" value="com.mrrobwad.cordova.android.idfa.AdvertisingIDFA" />
             </feature>
         </config-file>
 
