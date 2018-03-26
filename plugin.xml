@@ -33,9 +33,9 @@
 
         <framework src="com.google.android.gms:play-services-ads:+" />
 
-        <source-file src="src/android/AdvertisingIDFA.java" target-dir="src/com/mrrobwad/cordova/idfa" />
-        <source-file src="src/android/CoreException.java" target-dir="src/com/mrrobwad/cordova/idfa" />
-        <source-file src="src/android/AdvertisingIdClient.java" target-dir="src/com/mrrobwad/cordova/idfa" />
+        <source-file src="src/android/AdvertisingIDFA.java" target-dir="src/com/mrrobwad/cordova/android/idfa" />
+        <source-file src="src/android/CoreException.java" target-dir="src/com/mrrobwad/cordova/android/idfa" />
+        <source-file src="src/android/AdvertisingIdClient.java" target-dir="src/com/mrrobwad/cordova/android/idfa" />
 
     </platform>
 
