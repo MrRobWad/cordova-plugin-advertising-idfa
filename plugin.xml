@@ -41,10 +41,6 @@
     <!-- ios-specific elements -->
     <platform name="ios">
 
-        <js-module src="www/ios/advertisingIDFA.js" name="advertisingIDFA">
-            <clobbers target="advertisingIDFA" />
-        </js-module>
-
         <config-file target="config.xml" parent="/*">
             <feature name="AdvertisingIDFA">
                 <param name="ios-package" value="AdvertisingIDFA" />
