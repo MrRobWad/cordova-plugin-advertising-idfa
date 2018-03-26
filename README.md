@@ -1,1 +1,3 @@
 # cordova-plugin-advertising-idfa
+
+This plugin was created as a multi-platform (Android, iOS) solution for retrieving advertising id information. The initial source came from a combining of two already existing plugins: [cordova-plugin-AppleAdvertising](https://github.com/aquto/cordova-plugin-AppleAdvertising) and [cordova-plugin-android-idfa](https://github.com/praves77/cordova-plugin-android-idfa).

@@ -1,0 +1,56 @@
+{
+  "name": "cordova-plugin-advertising-idfa",
+  "version": "1.0.0",
+  "description": "Cordova Advertising ID (IDFA) Plugin for both Android and iOS",
+  "cordova": {
+    "id": "cordova-plugin-advertising-idfa",
+    "platforms": [
+      "android",
+      "browser",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRobWad/cordova-plugin-advertising-idfa.git"
+  },
+  "dependencies": {
+    "cordova-plugin-googleplayservices": "19.0.3"
+  },
+  "keywords": [
+    "cordova",
+    "idfa",
+    "android idfa",
+    "apple idfa",
+    "ios idfa",
+    "aaid",
+    "android aaid",
+    "advertising id",
+    "android advertising id",
+    "apple advertising id",
+    "ios advertising id",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.4.0"
+    }
+  ],
+  "author": {
+    "name": "Robert Waddell",
+    "email": "robert.waddell@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/MrRobWad/cordova-plugin-advertising-idfa/LICENSE.md"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/MrRobWad/cordova-plugin-advertising-idfa/issues"
+  },
+  "homepage": "https://github.com/MrRobWad/cordova-plugin-advertising-idfa#readme"
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-advertising-idfa" version="1.0.0">
+
+    <name>Advertising ID (IDFA) Plugin for Android and iOS</name>
+    <description>Phonegap/Cordova plugin to get Advertising ID for both Android and iOS platforms</description>
+    <keywords>advertising id,idfa,aaid,android aaid,apple idfa,ios idfa,android idfa</keywords>
+
+    <author email="robert.waddell@gmail.com" href="https://github.com/MrRobWad/cordova-plugin-advertising-idfa">Robert Waddell</author>
+
+    <engines>
+        <engine name="cordova" version=">=6.4.0" />
+    </engines>
+
+    <license>MIT</license>
+
+    <repo>https://github.com/MrRobWad/cordova-plugin-advertising-idfa.git</repo>
+    <issue>https://github.com/MrRobWad/cordova-plugin-advertising-idfa/issues</issue>
+
+    <js-module src="www/advertisingIDFA.js" name="advertisingIDFA">
+        <clobbers target="advertisingIDFA" />
+    </js-module>
+
+    <!-- android-specific elements -->
+    <platform name="android">
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="AdvertisingIDFA">
+                <param name="android-package" value="AdvertisingIDFA" />
+            </feature>
+        </config-file>
+
+        <framework src="com.google.android.gms:play-services-ads:+" />
+
+        <source-file src="src/android/AdvertisingIDFA.java" target-dir="src/com/mrrobwad/cordova/idfa" />
+        <source-file src="src/android/CoreException.java" target-dir="src/com/mrrobwad/cordova/idfa" />
+        <source-file src="src/android/AdvertisingIdClient.java" target-dir="src/com/mrrobwad/cordova/idfa" />
+
+    </platform>
+
+    <!-- ios-specific elements -->
+    <platform name="ios">
+
+        <js-module src="www/ios/advertisingIDFA.js" name="advertisingIDFA">
+            <clobbers target="advertisingIDFA" />
+        </js-module>
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="AdvertisingIDFA">
+                <param name="ios-package" value="AdvertisingIDFA" />
+            </feature>
+        </config-file>
+
+        <framework src="AdSupport.framework" weak="true" />
+
+        <header-file src="src/ios/AdvertisingIDFA.h" />
+        <source-file src="src/ios/AdvertisingIDFA.m" />
+
+    </platform>
+
+</plugin>
